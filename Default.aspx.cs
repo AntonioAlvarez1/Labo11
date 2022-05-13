@@ -12,7 +12,7 @@ namespace Labo11
     {
         static List<Nota> NotasTemp = new List<Nota>();
         static List<Alumno> AlumnoTemp = new List<Alumno>();
-        static List<Universidad> universidaTemp = new List<Universidad>();
+        static List<Universidad> universida = new List<Universidad>();
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -20,7 +20,7 @@ namespace Labo11
 
         private void GuardarJason()
         {
-            string json = JsonConvert.SerializeObject(universidaTemp);
+            string json = JsonConvert.SerializeObject(universida);
             string archivo = Server.MapPath("Universidades.json");
             System.IO.File.WriteAllText(archivo, json);
         }
@@ -51,10 +51,16 @@ namespace Labo11
             Universidad universidad = new Universidad();
             universidad.Nombre = DropDownList1.SelectedValue;
             universidad.Alumnos = AlumnoTemp.ToArray().ToList();
-            universidaTemp.Add(universidad);
+            universida.Add(universidad);
             AlumnoTemp.Clear();
             GuardarJason();
-            universidaTemp.Clear();
+            
+            
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+
+            }
     }
 }

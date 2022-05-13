@@ -1,1 +1,32 @@
-[{"Nombre":"Mesoamericana","Sede":null,"Alumnos":[{"Carne":"Carne 1 ","Notas":[{"Curso":"Curso 1","Punteo":10},{"Curso":"Curso 1","Punteo":20},{"Curso":"Curso 1","Punteo":30},{"Curso":"Curso 1","Punteo":100}],"Universidad":null,"Nombre":"Nombre 1","Apellido":"Apellido 1"},{"Carne":"Carne 2","Notas":[{"Curso":"Curso 2","Punteo":1},{"Curso":"Curso 2","Punteo":2},{"Curso":"Curso 2","Punteo":3},{"Curso":"Curso 2","Punteo":4}],"Universidad":null,"Nombre":"Nombre 2","Apellido":"Apellido 2"}]}]
+[
+  {
+    "Nombre": "Landivar",
+    
+    "Alumnos": [
+      {
+        "Carne": "c1",
+        "Notas": [
+          {
+            "Curso": "Mate",
+            "Punteo": 23
+          },
+          {
+            "Curso": "Mate",
+            "Punteo": 44
+          },
+          {
+            "Curso": "Mate",
+            "Punteo": 99
+          },
+          {
+            "Curso": "Mate",
+            "Punteo": 80
+          }
+        ],
+        "Universidad": null,
+        "Nombre": "Paula",
+        "Apellido": "Silva"
+      }
+    ]
+  }
+]

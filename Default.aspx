@@ -32,6 +32,7 @@
         </p>
         <p>
             <asp:Button ID="ButtonGuardaU" runat="server" Text="Guardar Universidad" OnClick="ButtonGuardaU_Click" />
+            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Guardar Todo" />
         </p>
     </div>
 
